@@ -17,6 +17,7 @@ a new note.** Append new tags with a dated comment for later confirmation:
 - rtl-coding
 - fsm-design
 - clock-domain-crossing
+- cdc                  # added 2026-04-21, unconfirmed (shorthand for clock-domain-crossing)
 - timing-closure
 - synthesis
 - place-and-route
@@ -73,6 +74,9 @@ a new note.** Append new tags with a dated comment for later confirmation:
 - alveo-v80
 - qv-band
 - lte-5g-ran
+- micro-architecture   # added 2026-04-21, unconfirmed
+- block-decomposition  # added 2026-04-21, unconfirmed
+- fpga-partitioning    # added 2026-04-21, unconfirmed
 
 ## Architect-track learning
 
