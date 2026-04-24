@@ -22,6 +22,7 @@ a new note.** Append new tags with a dated comment for later confirmation:
 - synthesis
 - place-and-route
 - constraints-xdc
+- cocotb               # added 2026-04-23, unconfirmed
 
 ## HLS
 
@@ -77,6 +78,12 @@ a new note.** Append new tags with a dated comment for later confirmation:
 - micro-architecture   # added 2026-04-21, unconfirmed
 - block-decomposition  # added 2026-04-21, unconfirmed
 - fpga-partitioning    # added 2026-04-21, unconfirmed
+- v-model              # added 2026-04-23, unconfirmed
+- fad                  # added 2026-04-23, unconfirmed (FPGA Architecture Document)
+- mds                  # added 2026-04-23, unconfirmed (Module Design Spec)
+- icd                  # added 2026-04-23, unconfirmed (Interface Control Document)
+- rtm                  # added 2026-04-23, unconfirmed (Requirements Traceability Matrix)
+- mds-contract         # added 2026-04-23, unconfirmed
 
 ## Architect-track learning
 
@@ -108,8 +115,13 @@ a new note.** Append new tags with a dated comment for later confirmation:
 - wsl
 - centos7-glibc
 - rocky-linux
+- veriflow-cc          # added 2026-04-23, unconfirmed
 
 ## Meta
 
 - wiki-setup
 - skill-design
+- workflow             # added 2026-04-23, unconfirmed
+- repo-structure       # added 2026-04-23, unconfirmed
+- skill                # added 2026-04-23, unconfirmed
+- sub-agent            # added 2026-04-23, unconfirmed
