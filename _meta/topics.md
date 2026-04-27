@@ -84,6 +84,14 @@ a new note.** Append new tags with a dated comment for later confirmation:
 - icd                  # added 2026-04-23, unconfirmed (Interface Control Document)
 - rtm                  # added 2026-04-23, unconfirmed (Requirements Traceability Matrix)
 - mds-contract         # added 2026-04-23, unconfirmed
+- arch-framework       # added 2026-04-24, unconfirmed
+- madrs                # added 2026-04-24, unconfirmed (MADR — Markdown Architecture Decision Records)
+- repo-layout          # added 2026-04-24, unconfirmed (possible dup of repo-structure — reconcile on next triage)
+- ms                   # added 2026-04-27, unconfirmed (Module Spec — black-box external contract; replaces mds)
+- spec-uarch-split     # added 2026-04-27, unconfirmed (architect MS vs designer uArch boundary)
+- architect-role       # added 2026-04-27, unconfirmed
+- rtl-designer-role    # added 2026-04-27, unconfirmed
+- review-gates         # added 2026-04-27, unconfirmed (G1–G5, G4a/G4b)
 
 ## Architect-track learning
 
@@ -125,3 +133,6 @@ a new note.** Append new tags with a dated comment for later confirmation:
 - repo-structure       # added 2026-04-23, unconfirmed
 - skill                # added 2026-04-23, unconfirmed
 - sub-agent            # added 2026-04-23, unconfirmed
+- documentation        # added 2026-04-24, unconfirmed
+- methodology          # added 2026-04-27, unconfirmed
+- llm-assisted         # added 2026-04-27, unconfirmed (drafter/reviewer/executor LLM pipeline)
