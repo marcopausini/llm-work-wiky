@@ -34,7 +34,7 @@ See `README.md` for the canonical folder map. Two primary buckets:
 
 ## Project state files
 
-Canonical state snapshots (`state.md`) live in `projects/<slug>/checkpoints/` with a date prefix matching the format `YYYY-MM-DD--<slug>--state.md`. This makes state an enumerated checkpoint artefact, versioned and timestamped alongside decision notes, not a floating file at the project root. When triaging inbox items to checkpoints, rename any `state.md` with its snapshot date before filing.
+Canonical state snapshots (`state.md`) live in `projects/<slug>/state/` with a date prefix matching the format `YYYY-MM-DD--state.md`. This makes state a versioned, enumerated artefact with a snapshot per significant milestone. When triaging inbox items, rename any `state.md` with its snapshot date before filing to the `state/` folder.
 
 ## Controlled vocabulary — read before writing
 
