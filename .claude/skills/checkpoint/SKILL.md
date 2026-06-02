@@ -7,7 +7,7 @@ description: Distill a chat conversation into one or more structured markdown ch
 
 Distills the current chat into structured markdown checkpoint notes for the
 work wiki. One chat produces one note, unless it spans distinct scopes
-(different project, or project + general) — in which case emit one note per
+(different project, or project + general) or topics — in which case emit one note per
 scope.
 
 ## When to use

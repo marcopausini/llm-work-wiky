@@ -23,6 +23,12 @@ QV-band.
   conclusions and cite the section; do not quote it.
 - No partner or customer identifiers.
 
+## Skills
+
+Skills live under `./claude/skills/`. Each has its own `SKILL.md` with explicit
+trigger conditions.
+
+
 ## Claude Project mapping
 
 Project name: **bpms-sfu-architecture**. KB contents: `state.md` from this

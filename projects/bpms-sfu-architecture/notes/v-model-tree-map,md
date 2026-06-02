@@ -1,0 +1,12 @@
+Top-level layout is flat and organised by artefact type, not by V-model phase: arch/ rtl/ model/ constraints/ prj/ scripts/ docs/. Rationale: artefacts cross phases (MDS is authored in arch phase, referenced during implementation, cited during verif); tools and humans search by artefact type. V-model review gates (G1–G5) live in arch/README.md, not in folder names.
+
+
+| V-model phase | Artefacts | Where they live |
+|---|---|---|
+| Requirements | RTM, SYS-*/SFU-* citations | `arch/rtm.md`, FAD §1.5 |
+| Architecture | FAD, ICDs, ADRs | `arch/fad/`, `arch/icd/`, `arch/adr/` |
+| Module design | MDSs | `arch/modules/` |
+| Implementation | RTL, constraints, refmodels | `rtl/`, `constraints/`, `model/` |
+| Unit verification | Unit TBs, coverage | verif repo `cocotb/` |
+| Integration verification | UVM, system tests | verif repo `uvm/` |
+| Integration | Vivado project, bitstream | `prj/` |

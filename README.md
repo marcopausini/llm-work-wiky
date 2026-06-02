@@ -1,6 +1,6 @@
 # llm-work-wiki
 
-Work knowledge wiki. Decisions, analyses, checkpoints, and curated state for
+Work knowledge wiki. Decisions, notes, artifacts, checkpoints, and curated state for
 FPGA/DSP engineering work and architect-track learning, produced through LLM
 interaction.
 

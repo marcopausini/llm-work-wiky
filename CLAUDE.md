@@ -1,11 +1,10 @@
 # llm-work-wiki — root agent rules
 
-Work knowledge wiki. Contents: decisions, analyses, checkpoints, and curated
+Work knowledge wiki. Contents: decisions, notes, checkpoints, and curated
 project state produced through interaction with LLM tools in the context of
 Marco's FPGA/DSP engineering work at AST SpaceMobile.
 
-Paired with Claude Projects (active chat surface). No Google Drive layer —
-this repo is self-contained on the work laptop.
+Paired with Claude Projects (active chat surface). 
 
 ## Confidentiality and IP posture
 
@@ -33,6 +32,10 @@ See `README.md` for the canonical folder map. Two primary buckets:
 - `projects/<slug>/` — content bound to a specific Claude Project.
 - `general/` — work content not tied to any single project.
 
+## Project state files
+
+Canonical state snapshots (`state.md`) live in `projects/<slug>/checkpoints/` with a date prefix matching the format `YYYY-MM-DD--<slug>--state.md`. This makes state an enumerated checkpoint artefact, versioned and timestamped alongside decision notes, not a floating file at the project root. When triaging inbox items to checkpoints, rename any `state.md` with its snapshot date before filing.
+
 ## Controlled vocabulary — read before writing
 
 Before tagging any new note:
@@ -50,11 +53,6 @@ Never invent tags silently. Tag drift kills retrieval.
 - Chain-of-thought before implementation for anything non-trivial.
 - Never guess. If context is missing, ask.
 - Dense, technical, no hedging. Match the user's engineering register.
-
-## Skills
-
-Skills live under `skills/`. Each has its own `SKILL.md` with explicit
-trigger conditions.
 
 ## Commit hygiene
 
